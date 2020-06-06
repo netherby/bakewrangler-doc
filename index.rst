@@ -14,6 +14,7 @@ Current Features
     * Objects are isolated within a pass preventing unwanted interference
     * All standard image formats, color-spaces and bit depths are available
     * Additional bake passes for better PBR and external engine support
+    
         * Albedo
         * Smoothness
         * Metallic
@@ -32,21 +33,24 @@ The Future
           a similar system of tokens for string replacement. This will be
           espeically useful for recipe re-use in other projects to quickly
           set the project specific values.
+          
         * Nodes and systems to better support specific workflows that may
           not fit optimally within the current systems. Requires more user
           feedback.
     * **Bake Passes** - Many additional passes are very simple to add at this
       point, though some remain technically challenging. Adding passes will
       be driven by user feedback and demand.
+      
     * **Image Manipulation** - While not currently implemented, it would be
       possible to combine passes using a maths function. Similarly some post
       processing could be done on the images. There are some performance
       limitations imposed by Python and I'm not entirely sure how useful it
       would be. But it's certainly possible if users have a strong case for
       something.
+      
     
 Come visit LINK to get involved
-    Bake Wrangler is available from
+    Bake Wrangler is available from:
     
     * Gumroad LINK
     * Blender Market LINK
@@ -54,9 +58,11 @@ Come visit LINK to get involved
     You can also donate and vote on features using CoFi LINK
     
 .. toctree::
-   :maxdepth: 2
-   /install
-   /quickstart
-   /nodes
-   /examples
+    :hidden:
+    :maxdepth: 2
+    
+    /install
+    /quickstart
+    /nodes
+    /examples
    
