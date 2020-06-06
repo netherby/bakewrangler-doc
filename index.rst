@@ -4,7 +4,7 @@ Bake Wrangler User Guide
 Bake Wrangler is an add-on for `blender <http:\\www.blender.org>`_ 
 that provides a *nodes based* interface for texture and material baking.
 
-Current Features::
+Current Features:
     * Easy to use node system
     * Background batch baking
     * Supports all the blender internal bake passes and multires
@@ -13,7 +13,7 @@ Current Features::
     * Masking feature allows layering of bakes and combining with external processes
     * Objects are isolated within a pass preventing unwanted interference
     * All standard image formats, color-spaces and bit depths are available
-    * Additional bake passes for better PBR and external engine support:
+    * Additional bake passes for better PBR and external engine support
         * Albedo
         * Smoothness
         * Metallic
@@ -24,7 +24,7 @@ Current Features::
         * More planned plus user feedback
 
 The Future
-    There are three main areas of development planned for future releases::
+    There are three main areas of development planned for future releases:
     * User Interface
         * Productivity features for large/complex bakes to allow
         grouping of values so they can be modified from one location and
@@ -45,11 +45,11 @@ The Future
     something.
     
 Come visit LINK to get involved
-    Bake Wrangler is available from::
+    Bake Wrangler is available from:
     * Gumroad LINK
     * Blender Market LINK
     
-    You can also donate and vote on features on the cofi page LINK
+    You can also donate and vote on features using CoFi LINK
     
 .. toctree::
    :maxdepth: 2

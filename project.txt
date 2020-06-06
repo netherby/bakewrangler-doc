@@ -1,0 +1,8 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="10" xOffset="0" scrollWidth="840" startPos="2463" endPos="2463" selMode="0" offset="0" wrapCount="1" lang="reStructuredText" encoding="-1" userReadOnly="no" filename="C:\Users\netherby\Home\Development\bakewrangler-doc\index.rst" backupFilePath="" originalFileLastModifTimestamp="-704746313" originalFileLastModifTimestampHigh="30817232" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="-390580208" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
