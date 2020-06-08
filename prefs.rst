@@ -31,5 +31,5 @@ the system if they prefer the console.*
    
 .. |br| raw:: html
 
-   <br />
+   <br /><br />
     
