@@ -1,7 +1,7 @@
 Objects
 =======
 
-The *Objects* node role is to contain lists of objects and collections
+The *Objects* nodes role is to contain lists of objects and collections
 which are used by the :doc:`Mesh </mesh>` nodes input sockets. *Objects*
 nodes can also be chained together.
 
