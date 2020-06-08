@@ -3,7 +3,7 @@ Nodes
 
 Detailed information on each node in the order they appear in the '*Add*' menu:
 
-* :strong:`:doc:`Objects </objects>`` - Container for groups of objects (used for input)
+* :strong:` :doc:`Objects </objects>` ` - Container for groups of objects (used for input)
 * :doc:`Mesh </mesh>`       - Settings of and relationship between inputs
 * :doc:`Pass </pass>`       - Bake pass configuration
 * :doc:`Output Image Path </outputimgpath>` - Output file location and format

@@ -15,7 +15,7 @@ the :doc:`Examples </examples>`.
 
 .. image:: /imgs/simpleconfig.png
 
-:strong:`1. Target` is the object you want to bake **to**. It must be a '*MESH*' type object
+:strong:` 1. Target` is the object you want to bake **to**. It must be a '*MESH*' type object
 with a UV Map. A list of objects can also be connected here which would cause each
 object in the list to be baked with the same settings. This field must be filled.
 
