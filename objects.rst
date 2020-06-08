@@ -12,7 +12,7 @@ This is where **Cages** and **UV Maps** are configured.
 
 1. **Filter:** Selects what object types will be shown in the search boxes
    and starts with all types enabled.
-
+   |br|
 
 2. **Collections:** Toggles between selecting objects or collections. The
    node can contain a mixture of both, but can only search for one or the other.
@@ -29,15 +29,20 @@ which case it will be evaluated multiple times.*
    are taken into account. On click it will automatically search for and select an object
    that has the same name as the original plus a spacing character follow by 'cage'
    (*Eg. cube.cage*).
-
+   |br|
 
 4. **UV Map:** Allows selection of a specific *UV Map* to use for the object. This
    option only appears when the object is able to support multiple maps (*Currently that
    is 'MESH' type objects*). When left blank or disabled the currently active map is
    used. Removing or renaming the referenced map on the object will break the reference
    and must be manually updated before baking can start.
-
+   |br|
 
 5. **Recursive Selection:** When the selected item is a collection this option will
    appear. Enabling it will cause any and all sub collections of the primary selection
    to also be included.
+
+.. |br| raw:: html
+
+   <br /><br />
+   

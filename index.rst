@@ -23,6 +23,7 @@ Current Features:
       * Curvature
       * Cavity
       * More planned plus user feedback
+      |br|
 
 The Future:
     There are three main areas of development planned for future releases:
@@ -33,8 +34,7 @@ The Future:
         grouping of values so they can be modified from one location and
         a similar system of tokens for string replacement. This will be
         especially useful for recipe re-use in other projects to quickly
-        set the project specific values.   
-      |
+        set the project specific values.
       
       * Nodes and systems to better support specific work-flows that may
         not fit optimally within the current systems. Requires more user
@@ -43,7 +43,7 @@ The Future:
     * **Bake Passes** - Many additional passes are very simple to add at this
       point, though some remain technically challenging. Adding passes will
       be driven by user feedback and demand.
-    |
+      |br|
     
     * **Image Manipulation** - While not currently implemented, it would be
       possible to combine passes using a maths function. Similarly some post
@@ -51,7 +51,7 @@ The Future:
       limitations imposed by Python and I'm not entirely sure how useful it
       would be. But it's certainly possible if users have a strong case for
       something.  
-    |
+      |br|
     
 Come visit `blenderartists.org/bake-wrangler <http://www.blenderartists.org>`_ to get involved :)
     Bake Wrangler is available from:
@@ -73,4 +73,8 @@ Come visit `blenderartists.org/bake-wrangler <http://www.blenderartists.org>`_ t
     /nodes
     /examples
     /bugs
+
+.. |br| raw:: html
+
+   <br /><br />
    
