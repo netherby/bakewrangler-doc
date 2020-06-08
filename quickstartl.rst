@@ -15,7 +15,7 @@ the :doc:`Examples </examples>`.
 
 .. image:: /imgs/simpleconfig.png
 
-1. **Target** is the object you want to bake **to**. It must be a '*MESH*' type object
+:strong:`1. Target` is the object you want to bake **to**. It must be a '*MESH*' type object
 with a UV Map. A list of objects can also be connected here which would cause each
 object in the list to be baked with the same settings. This field must be filled.
 
@@ -30,7 +30,7 @@ options below them when selected. In the example picture the '*Normal*' pass has
 choices of normal space and which direction is mapped to the three color channels.
 
 4. **Image Path** selects where the baked image will be saved. Relative locations are
-supported and will be expanded on bake (Eg. Using // for the current path).
+supported and will be expanded on bake (*Eg. Using // for the current path*).
 
 5. **Image Name** the name of the baked image. File extensions will be added automatically
 based on the file format unless you specify your own extension and that extension is not
