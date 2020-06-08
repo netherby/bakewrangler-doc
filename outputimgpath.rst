@@ -1,3 +1,3 @@
-Output Image Path <node>
-========================
+Output Image Path
+=================
 

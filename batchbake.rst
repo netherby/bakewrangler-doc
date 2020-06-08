@@ -1,3 +1,3 @@
-Batch Bake <node>
-=================
+Batch Bake
+==========
 
