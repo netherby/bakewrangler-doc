@@ -10,6 +10,9 @@ it selected or double click on the zip file.
 
 Once installed you need to check the box on the add-on to enable it.
 
+Updating
+--------
+
 When updating follow the same procedure (making sure the '*Overwrite*'
 box is checked in the '*File Viewer*' when selecting the new version).
 Sometimes changes are made the require blender to be restarted, so
