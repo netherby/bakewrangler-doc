@@ -9,11 +9,11 @@ Below are the current available preferences and their default settings:
    produced by Bake Wrangler to be written to a text file named '*BakeWrangler*'
    in the current project. When disabled these messages would only be visible in
    the console.
-   |
+|
 
 2. **Clear Old Messages** (*enabled by default*) clears the text file prior to
    each bake, so that messages are only relevant to the current/last process.
-   |
+|
 
 3. **Open Text in new Window** (*enabled by default*) will open a new window when
    a bake process starts, displaying the text file (which is continually updated).
