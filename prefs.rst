@@ -5,10 +5,10 @@ Below are the current available preferences and their default settings:
 
 .. image:: /imgs/prefs.png
 
-1. **Messages to Text editor** (*enabled by default*) causes messages and errors
-   produced by Bake Wrangler to be written to a text file named '*BakeWrangler*'
-   in the current project. When disabled these messages would only be visible in
-   the console.
+| 1. **Messages to Text editor** (*enabled by default*) causes messages and errors
+     produced by Bake Wrangler to be written to a text file named '*BakeWrangler*'
+     in the current project. When disabled these messages would only be visible in
+     the console.
 |
 2. **Clear Old Messages** (*enabled by default*) clears the text file prior to
    each bake, so that messages are only relevant to the current/last process.
