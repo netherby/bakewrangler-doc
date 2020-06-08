@@ -1,7 +1,7 @@
 Preferences
 ===========
 
-Below are the current available preferences and their default settings:
+Below are the current available preferences and their default settings\:
 
 .. image:: /imgs/prefs.png
 
