@@ -21,7 +21,7 @@ Current Features
         * Specular
         * Alpha
         * Curvature
-        * Caity
+        * Cavity
         * More planned plus user feedback
 
 The Future
@@ -31,12 +31,13 @@ The Future
         * Productivity features for large/complex bakes to allow
           grouping of values so they can be modified from one location and
           a similar system of tokens for string replacement. This will be
-          espeically useful for recipe re-use in other projects to quickly
+          especially useful for recipe re-use in other projects to quickly
           set the project specific values.
           
-        * Nodes and systems to better support specific workflows that may
+        * Nodes and systems to better support specific work-flows that may
           not fit optimally within the current systems. Requires more user
           feedback.
+          
     * **Bake Passes** - Many additional passes are very simple to add at this
       point, though some remain technically challenging. Adding passes will
       be driven by user feedback and demand.
@@ -52,10 +53,10 @@ The Future
 Come visit LINK to get involved
     Bake Wrangler is available from:
     
-    * Gumroad LINK
-    * Blender Market LINK
+    * Gumroad `gum.co/bake-wrangler <https://gum.co/bake-wrangler>`_
+    * Blender Market `blendermarket.com/bake-wrangler <https://www.blendermarket.com/bake-wrangler>`_
     
-    You can also donate and vote on features using CoFi LINK
+    You can also donate and vote on features using CoFi `ko-fi.com/bakewrangler <https://ko-fi.com/bakewrangler>`_
     
 .. toctree::
     :hidden:
@@ -63,6 +64,8 @@ Come visit LINK to get involved
     
     /install
     /quickstart
+    /prefs
     /nodes
     /examples
+    /bugs
    
