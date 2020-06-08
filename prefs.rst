@@ -30,5 +30,6 @@ the system if they prefer the console.*
    window. **Please post this log when reporting a bug.**
    
 .. |br| raw:: html
-    <br />
+
+   <br />
     
