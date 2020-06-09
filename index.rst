@@ -23,7 +23,6 @@ Current Features:
       * Curvature
       * Cavity
       * More planned plus user feedback
-      |br|
 
 The Future:
     There are three main areas of development planned for future releases:

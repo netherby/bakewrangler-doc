@@ -3,7 +3,7 @@ Mesh
 
 The *Mesh* node is responsible for mesh specific settings and
 the relationship between objects. It can take :doc:`objects`
-nodes as any of its inputs and outputs to a :doc:`pass` node.
+nodes as any of its inputs, and outputs to a :doc:`pass` node.
 Only objects that are linked to this node will be included in
 a bake pass and will be completely isolated from all other
 objects in the .blend file.

@@ -1,7 +1,8 @@
 Nodes
 =====
 
-Detailed information on each node in the order they appear in the '*Add*' menu:
+Detailed information on each node in the order they appear in the '*Add*' menu
+*(Note: All node settings have mouse over tool-tips with additional info)*:
 
 ===================== ================================================
 :doc:`/objects`       Container for groups of objects (used for input)

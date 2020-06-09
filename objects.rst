@@ -3,7 +3,8 @@ Objects
 
 The *Objects* nodes role is to contain lists of objects and collections
 which are used by the :doc:`Mesh </mesh>` nodes input sockets. *Objects*
-nodes can also be chained together.
+nodes can be chained together and the node itself will continue to expand
+as objects are added, allowing for any number and combination of objects.
 
 Some objects have additional options that can be set once they are added.
 This is where **Cages** and **UV Maps** are configured.
