@@ -9,7 +9,7 @@ of pixels as well as the individual *Red*, *Green* and *Blue* values.
 Outputs can be connected in any combination to any number of
 :doc:`outputimgpath` nodes.
 
-.. image:: /imgs/outputimgpath.png
+.. image:: /imgs/pass.png
 
 1. **Bake Pass Button:** Will validate settings and then bake this
    nodes pass. Any linked outputs will be updated, but *only* the
