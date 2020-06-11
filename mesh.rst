@@ -13,7 +13,7 @@ objects in the .blend file.
 1. **Margin:** Number of pixels to extend out around the edges of
    baked UV islands. This is used to prevent bleeding of background
    colors into texture island edges when a coordinate lies on a pixel
-   boundry or when a texture is resampled at a different resolution.
+   boundary or when a texture is re-sampled at a different resolution.
    |br|
    
 2. **Mask Margin:** If masking is enabled this sets how many pixels
@@ -26,7 +26,7 @@ objects in the .blend file.
    should be cast from above the objects surface. This only applies when
    baking from one or more *Source* objects. It needs to be far enough
    away to hit any details that extend above the surface of the *Target*.
-   When finer control is requied a *cage* object should be specified on
+   When finer control is required a *cage* object should be specified on
    the *Target* object.
    |br|
    

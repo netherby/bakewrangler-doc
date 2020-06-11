@@ -13,7 +13,7 @@ User interface bug:
 Bake process bug:
     Make sure to enable '*Debug*' in the :doc:`prefs`\ . This should cause a
     complete log of the process to open in a new window when the process fails.
-    Please post this text with your reprot. If a log doesn't open you may need
+    Please post this text with your report. If a log doesn't open you may need
     to post your .blend file.
     
 Bake output bug:

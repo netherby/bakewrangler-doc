@@ -45,7 +45,7 @@ for linking to one or more :doc:`batchbake` nodes if desired.
    
 6. **X and Y Resolution:** Set the width and height in pixels of the final output
    image. Using a lower value than the bake pass allows for down sampling. Note
-   that for performace reasons most real time rendering engines will expect your
+   that for performance reasons most real time rendering engines will expect your
    texture maps to be a power of two (*eg. 512, 1024, 2048, 4096, etc*). Also
    consider that you can always reduce the detail/size of a higher resolution map,
    but it's not really possible to increse the detail in a lower resolution map.
