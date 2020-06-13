@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, DFS
+# This file is distributed under the same license as the bake-wrangler-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bake-wrangler-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-13 17:32+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../batchbake.rst:2
+msgid "Batch Bake"
+msgstr ""
+
+#: ../../batchbake.rst:4
+msgid ""
+"The *Batch Bake* node simple takes any number of :doc:`outputimgpath` "
+"nodes as input (it will continue to expand as sockets are connected). "
+"Pressing the '*Bake All*' button will validate and process all the "
+"attached images, generating them in the order they are connected."
+msgstr ""
+

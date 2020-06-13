@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, DFS
+# This file is distributed under the same license as the bake-wrangler-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bake-wrangler-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-13 17:32+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../bugs.rst:2
+msgid "Bug Reports"
+msgstr ""
+
+#: ../../bugs.rst:4
+msgid ""
+"Have you found a bug? *Please* report it `here "
+"(blenderartists.org/bakewrangler) <http://www.blenderartists.org>`_ "
+"following these guidelines:"
+msgstr ""
+
+#: ../../bugs.rst:7
+msgid "**Always post the steps to reproduce the bug.**"
+msgstr ""
+
+#: ../../bugs.rst:11
+msgid "User interface bug:"
+msgstr ""
+
+#: ../../bugs.rst:10
+msgid ""
+"Along with describing what you did, post a screen shot if "
+"possible/relevent and any error messages produced in the console."
+msgstr ""
+
+#: ../../bugs.rst:17
+msgid "Bake process bug:"
+msgstr ""
+
+#: ../../bugs.rst:14
+msgid ""
+"Make sure to enable '*Debug*' in the :doc:`prefs`\\ . This should cause a"
+" complete log of the process to open in a new window when the process "
+"fails. Please post this text with your report. If a log doesn't open you "
+"may need to post your .blend file."
+msgstr ""
+
+#: ../../bugs.rst:24
+msgid "Bake output bug:"
+msgstr ""
+
+#: ../../bugs.rst:20
+msgid ""
+"If the results of a bake pass don't match what is expected, first verify "
+"your node tree set up and check the tool-tip for the pass you are using "
+"to see if it has any special requirements. If the result is still "
+"incorrect post your node tree along with the expected and actual outputs."
+" I will likely need your .blend file also."
+msgstr ""
+
+#: ../../bugs.rst:26
+msgid "Thanks for helping to improve Bake Wrangler!"
+msgstr ""
+

@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, DFS
+# This file is distributed under the same license as the bake-wrangler-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bake-wrangler-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-13 17:32+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../prefs.rst:2
+msgid "Preferences"
+msgstr ""
+
+#: ../../prefs.rst:4
+msgid "Below are the current available preferences and their default settings:"
+msgstr ""
+
+#: ../../prefs.rst:8
+msgid ""
+"**Messages to Text editor** (*enabled by default*) causes messages and "
+"errors produced by Bake Wrangler to be written to a text file named "
+"'*BakeWrangler*' in the current project. When disabled these messages "
+"would only be visible in the console. |br|"
+msgstr ""
+
+#: ../../prefs.rst:14
+msgid ""
+"**Clear Old Messages** (*enabled by default*) clears the text file prior "
+"to each bake, so that messages are only relevant to the current/last "
+"process. |br|"
+msgstr ""
+
+#: ../../prefs.rst:18
+msgid ""
+"**Open Text in new Window** (*enabled by default*) will open a new window"
+" when a bake process starts, displaying the text file (which is "
+"continually updated). The size and location of the window will match the "
+"Bake Node Editor from which the bake was started. (Note: The window must "
+"be closed manually and will not be reused)"
+msgstr ""
+
+#: ../../prefs.rst:23
+msgid ""
+"*The intention of the above preferences is to allow the user to create a "
+"work space with the text file already open in it (would disable the pop "
+"up window). Or to just see it when starting a bake (default). And of "
+"course to be able to completely disable the system if they prefer the "
+"console.*"
+msgstr ""
+
+#: ../../prefs.rst:28
+msgid ""
+"**Debug** (*disabled by default*) adds more detailed messages to each "
+"process and if a bake fails with an error condition a complete process "
+"log will be opened in a new window. **Please post this log when reporting"
+" a bug.**"
+msgstr ""
+

@@ -7,6 +7,7 @@ some features work and give some ideas of what is possible:
 
 ================== ===============================================
 :doc:`/egpassvimg` Details '*Bake Pass*' vs '*Bake Image*' buttons
+:doc:`/egmasking`  Using the '*Masking*' feature
 ================== ===============================================
 
 .. toctree::
@@ -14,4 +15,5 @@ some features work and give some ideas of what is possible:
     :maxdepth: 1
     
     /egpassvimg
+    /egmasking
     

@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, DFS
+# This file is distributed under the same license as the bake-wrangler-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bake-wrangler-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-13 17:32+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../outputimgpath.rst:2
+msgid "Output Image Path"
+msgstr ""
+
+#: ../../outputimgpath.rst:4
+msgid ""
+"The *Output Image Path* node specifies where an image should be saved, "
+"the name to use and all the file format information. Currently it is the "
+"only output path for a bake. It takes color or value data from one or "
+"more :doc:`pass` nodes as input. Each input is written to the final image"
+" in the order they appear, such that if you used the *Color* input and "
+"the *R* input (assuming none of the input data had *Masks* assigned) the "
+"*R* input would override every *Red* value of the *Color* input. Writing "
+"to the *A* (Alpha) channel requires an image format that supports alpha "
+"to be chosen or it will be ignored. Writing alpha also takes slightly "
+"longer and is performed in a separate pass once colors are written. An "
+"output is provided for linking to one or more :doc:`batchbake` nodes if "
+"desired."
+msgstr ""
+
+#: ../../outputimgpath.rst:18
+msgid ""
+"**Bake Image Button:** After validating settings this will cause all "
+"connected :doc:`passes </pass>` to be performed, mixed together and saved"
+" to the output file. This is the primary method for starting a non-batch "
+"bake. For the differences with the similar *Bake Pass* button take a look"
+" at the :doc:`egpassvimg` example. |br|"
+msgstr ""
+
+#: ../../outputimgpath.rst:25
+msgid ""
+"**Image Path:** Simply used to select the path where the image will be "
+"saved. Relative paths may be used (*eg. // to refer to the path the "
+".blend file is in*). |br|"
+msgstr ""
+
+#: ../../outputimgpath.rst:30
+msgid ""
+"**Image Name:** The name of the image with or without the extension. The "
+"extension will be added for the currently selected file format unless you"
+" have given the file an extension that isn't recognized (*eg. if format "
+"was set to 'JPEG' both 'img' and 'img.png' would be saved as 'img.jpg' "
+"but 'img.myext' would not be changed*). |br|"
+msgstr ""
+
+#: ../../outputimgpath.rst:37
+msgid ""
+"**Clear Image:** When enabled and if the target image already exists, it "
+"will clear the image to white before writing bake data. |br|"
+msgstr ""
+
+#: ../../outputimgpath.rst:41
+msgid ""
+"**Format:** Drop down list of supported image formats. This will default "
+"to the output format selected for your current scene when placing the "
+"node. The options in section *[7]* will change depending on the format "
+"chosen. |br|"
+msgstr ""
+
+#: ../../outputimgpath.rst:46
+msgid ""
+"**X and Y Resolution:** Set the width and height in pixels of the final "
+"output image. Using a lower value than the bake pass allows for down "
+"sampling. Note that for performance reasons most real time rendering "
+"engines will expect your texture maps to be a power of two (*eg. 512, "
+"1024, 2048, 4096, etc*). Also consider that you can always reduce the "
+"detail/size of a higher resolution map, but it's not really possible to "
+"increse the detail in a lower resolution map. |br|"
+msgstr ""
+
+#: ../../outputimgpath.rst:54
+msgid ""
+"**Format Options:** This group of options are specific to the chosen "
+"image format and will change accordingly. Almost all formats support "
+"'*Color Space*', if you are unsure what to pick use '*sRGB*' for color "
+"information and '*Non-Color*' for data maps like normals. For any other "
+"settings either use the defaults or check the tool-tip for more "
+"information if you are unsure. |br|"
+msgstr ""
+

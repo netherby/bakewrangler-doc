@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, DFS
+# This file is distributed under the same license as the bake-wrangler-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bake-wrangler-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-13 17:32+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../index.rst:2
+msgid "Bake Wrangler User Guide"
+msgstr ""
+
+#: ../../index.rst:4
+msgid ""
+"Bake Wrangler is an add-on for `blender <http:\\\\www.blender.org>`_ that"
+" provides a *nodes based* interface for texture and material baking."
+msgstr ""
+
+#: ../../index.rst:25
+msgid "Current Features:"
+msgstr ""
+
+#: ../../index.rst:8
+msgid "Easy to use node system"
+msgstr ""
+
+#: ../../index.rst:9
+msgid "Background batch baking"
+msgstr ""
+
+#: ../../index.rst:10
+msgid "Supports all the blender internal bake passes and multires"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "Exposes separate Color, R/G/B and Value channels of a pass"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "Allows assigning pass output to individual output channels (R/G/B/A)"
+msgstr ""
+
+#: ../../index.rst:13
+msgid ""
+"Masking feature allows layering of bakes and combining with external "
+"processes"
+msgstr ""
+
+#: ../../index.rst:14
+msgid "Objects are isolated within a pass preventing unwanted interference"
+msgstr ""
+
+#: ../../index.rst:15
+msgid "All standard image formats, color-spaces and bit depths are available"
+msgstr ""
+
+#: ../../index.rst:16
+msgid "Additional bake passes for better PBR and external engine support:"
+msgstr ""
+
+#: ../../index.rst:18
+msgid "Albedo"
+msgstr ""
+
+#: ../../index.rst:19
+msgid "Smoothness"
+msgstr ""
+
+#: ../../index.rst:20
+msgid "Metallic"
+msgstr ""
+
+#: ../../index.rst:21
+msgid "Specular"
+msgstr ""
+
+#: ../../index.rst:22
+msgid "Alpha"
+msgstr ""
+
+#: ../../index.rst:23
+msgid "Curvature"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "Cavity"
+msgstr ""
+
+#: ../../index.rst:25
+msgid "More planned plus user feedback"
+msgstr ""
+
+#: ../../index.rst:53
+msgid "The Future:"
+msgstr ""
+
+#: ../../index.rst:28
+msgid "There are three main areas of development planned for future releases:"
+msgstr ""
+
+#: ../../index.rst:30
+msgid "**User Interface**"
+msgstr ""
+
+#: ../../index.rst:32
+msgid ""
+"Productivity features for large/complex bakes to allow grouping of values"
+" so they can be modified from one location and a similar system of tokens"
+" for string replacement. This will be especially useful for recipe re-use"
+" in other projects to quickly set the project specific values."
+msgstr ""
+
+#: ../../index.rst:38
+msgid ""
+"Nodes and systems to better support specific work-flows that may not fit "
+"optimally within the current systems. Requires more user feedback."
+msgstr ""
+
+#: ../../index.rst:42
+msgid ""
+"**Bake Passes** - Many additional passes are very simple to add at this "
+"point, though some remain technically challenging. Adding passes will be "
+"driven by user feedback and demand. |br|"
+msgstr ""
+
+#: ../../index.rst:47
+msgid ""
+"**Image Manipulation** - While not currently implemented, it would be "
+"possible to combine passes using a maths function. Similarly some post "
+"processing could be done on the images. There are some performance "
+"limitations imposed by Python and I'm not entirely sure how useful it "
+"would be. But it's certainly possible if users have a strong case for "
+"something. |br|"
+msgstr ""
+
+#: ../../index.rst:63
+msgid ""
+"Come visit `blenderartists.org/bake-wrangler "
+"<http://www.blenderartists.org>`_ to get involved and make suggestions :)"
+msgstr ""
+
+#: ../../index.rst:56
+msgid "Bake Wrangler is available from:"
+msgstr ""
+
+#: ../../index.rst:59
+msgid "**Gumroad:**"
+msgstr ""
+
+#: ../../index.rst:59
+msgid "`gum.co/bake-wrangler <https://gum.co/bake-wrangler>`_"
+msgstr ""
+
+#: ../../index.rst:60
+msgid "**Blender Market:**"
+msgstr ""
+
+#: ../../index.rst:60
+msgid ""
+"`blendermarket.com/bake-wrangler <https://www.blendermarket.com/bake-"
+"wrangler>`_"
+msgstr ""
+
+#: ../../index.rst:63
+msgid ""
+"You can also **donate** and **vote** on features using `ko-"
+"fi.com/bakewrangler <https://ko-fi.com/bakewrangler>`_"
+msgstr ""
+

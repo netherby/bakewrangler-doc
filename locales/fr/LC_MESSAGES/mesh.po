@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, DFS
+# This file is distributed under the same license as the bake-wrangler-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bake-wrangler-docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-13 17:32+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../mesh.rst:2
+msgid "Mesh"
+msgstr ""
+
+#: ../../mesh.rst:4
+msgid ""
+"The *Mesh* node is responsible for mesh specific settings and the "
+"relationship between objects. It can take :doc:`objects` nodes as any of "
+"its inputs, and outputs to a :doc:`pass` node. Only objects that are "
+"linked to this node will be included in a bake pass and will be "
+"completely isolated from all other objects in the .blend file."
+msgstr ""
+
+#: ../../mesh.rst:13
+msgid ""
+"**Margin:** Number of pixels to extend out around the edges of baked UV "
+"islands. This is used to prevent bleeding of background colors into "
+"texture island edges when a coordinate lies on a pixel boundary or when a"
+" texture is re-sampled at a different resolution. |br|"
+msgstr ""
+
+#: ../../mesh.rst:19
+msgid ""
+"**Mask Margin:** If masking is enabled this sets how many pixels the mask"
+" should extend beyond the UV islands margin. Normally this can be set to "
+"zero, but is provided in case a mask is cutting off edges. |br|"
+msgstr ""
+
+#: ../../mesh.rst:25
+msgid ""
+"**Ray Distance:** Sets the distance in blender units that baking rays "
+"should be cast from above the objects surface. This only applies when "
+"baking from one or more *Source* objects. It needs to be far enough away "
+"to hit any details that extend above the surface of the *Target*. When "
+"finer control is required a *cage* object should be specified on the "
+"*Target* object. |br|"
+msgstr ""
+
+#: ../../mesh.rst:33
+msgid ""
+"**Target:** May be a single 'MESH' type object or taken from a "
+":doc:`objects` node. When a list of objects is used, only 'MESH' type "
+"objects will be considered with other types ignored. Each *Target* will "
+"be baked in its own pass but shares the *Mesh* nodes settings. At least "
+"one valid object must be selected for a bake to valid. |br|"
+msgstr ""
+
+#: ../../mesh.rst:40
+msgid ""
+"**Source:** Optional field that can take a single object of most types or"
+" a list of objects from a :doc:`objects` node. All of *Source* objects "
+"will have their surface data projected onto to the *Target(s)* (if "
+"sensible for the selected bake pass). Normally a ray distance greater "
+"than zero is needed to capture everything correctly. |br|"
+msgstr ""
+
+#: ../../mesh.rst:47
+msgid ""
+"**Scene:** Optional field that can take a single collection or a list of "
+"objects from a :doc:`objects` node. This is the only input that will "
+"consider lights as valid objects. This input is used to set up lighting, "
+"shadow casting objects and anything that indirectly influences the pass "
+"but isn't directly mapped to the *Target*. Generally unless you are "
+"trying to capture lighting information this input is not needed."
+msgstr ""
+
