@@ -52,7 +52,7 @@ The Future:
       something.  
       |br|
     
-Come visit `blenderartists.org/bake-wrangler <http://www.blenderartists.org>`_ to get involved and make suggestions :)
+Come visit `blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/ <https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/>`_ to get involved and make suggestions :)
     Bake Wrangler is available from:
     
     =================== ================================================================================

@@ -1,7 +1,7 @@
 Bug Reports
 ===========
 
-Have you found a bug? *Please* report it `here (blenderartists.org/bakewrangler) <http://www.blenderartists.org>`_
+Have you found a bug? *Please* report it `here (blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/) <https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/>`_
 following these guidelines:
 
 **Always post the steps to reproduce the bug.**
