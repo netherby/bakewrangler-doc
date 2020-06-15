@@ -25,7 +25,15 @@ with the text file already open in it (would disable the pop up window). Or to j
 see it when starting a bake (default). And of course to be able to completely disable
 the system if they prefer the console.*
 
-4. **Debug** (*disabled by default*) adds more detailed messages to each process and
+4. **Save each Pass:** (*disabled by default*) causes the output to be saved after each
+   bake pass instead of after all contributing passes. This will reduce performance in
+   some cases (especially with Alpha being written every time), but will preserve pass
+   data in the event of a later failure or memory shortage. Use it if some pass data
+   seems to be getting lost or if you have very long pass bake times so as not to lose
+   progress.
+   |br|
+
+5. **Debug** (*disabled by default*) adds more detailed messages to each process and
    if a bake fails with an error condition a complete process log will be opened in a new
    window. **Please post this log when reporting a bug.**
    

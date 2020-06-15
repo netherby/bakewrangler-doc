@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bake-wrangler-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-13 17:32+1000\n"
+"POT-Creation-Date: 2020-06-16 04:35+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,10 +66,26 @@ msgstr ""
 #: ../../outputimgpath.rst:37
 msgid ""
 "**Clear Image:** When enabled and if the target image already exists, it "
-"will clear the image to white before writing bake data. |br|"
+"will clear the image to black (and transparent if supported by image "
+"settings) before writing bake data. |br|"
 msgstr ""
 
-#: ../../outputimgpath.rst:41
+#: ../../outputimgpath.rst:42
+msgid ""
+"**Use 32 Bit Float:** Normally blender renders images using 8bits per "
+"channel per pixel (24bpp or 32bpp with Alpha). If you want to save your "
+"output in a format with more data per pixel than that you need to enable "
+"this option. All contributing :doc:`passes </pass>` will then use 92bpp "
+"(128bpp with Alpha). This uses up 4x more memory than standard, but can "
+"be useful for *data* maps (eg. normals) to allow more variations in color"
+" (and hence a more accurate representation of the data). For plain color "
+"maps it generally doesn't provide any advantages. You must also use an "
+"image format and bit depth with higher than 8bpp or the extra data will "
+"be lost and colors may appear different than expected as they are "
+"remapped to a lower bit depth. |br|"
+msgstr ""
+
+#: ../../outputimgpath.rst:54
 msgid ""
 "**Format:** Drop down list of supported image formats. This will default "
 "to the output format selected for your current scene when placing the "
@@ -77,7 +93,7 @@ msgid ""
 "chosen. |br|"
 msgstr ""
 
-#: ../../outputimgpath.rst:46
+#: ../../outputimgpath.rst:59
 msgid ""
 "**X and Y Resolution:** Set the width and height in pixels of the final "
 "output image. Using a lower value than the bake pass allows for down "
@@ -88,7 +104,7 @@ msgid ""
 "increse the detail in a lower resolution map. |br|"
 msgstr ""
 
-#: ../../outputimgpath.rst:54
+#: ../../outputimgpath.rst:67
 msgid ""
 "**Format Options:** This group of options are specific to the chosen "
 "image format and will change accordingly. Almost all formats support "
@@ -97,4 +113,11 @@ msgid ""
 "settings either use the defaults or check the tool-tip for more "
 "information if you are unsure. |br|"
 msgstr ""
+
+#~ msgid ""
+#~ "**Clear Image:** When enabled and if "
+#~ "the target image already exists, it "
+#~ "will clear the image to white "
+#~ "before writing bake data. |br|"
+#~ msgstr ""
 

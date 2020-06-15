@@ -35,15 +35,28 @@ for linking to one or more :doc:`batchbake` nodes if desired.
    |br|
    
 4. **Clear Image:** When enabled and if the target image already exists, it
-   will clear the image to white before writing bake data.
+   will clear the image to black (and transparent if supported by image settings)
+   before writing bake data.
    |br|
    
-5. **Format:** Drop down list of supported image formats. This will default
+5. **Use 32 Bit Float:** Normally blender renders images using 8bits per channel
+   per pixel (24bpp or 32bpp with Alpha). If you want to save your output in a
+   format with more data per pixel than that you need to enable this option. All
+   contributing :doc:`passes </pass>` will then use 92bpp (128bpp with Alpha).
+   This uses up 4x more memory than standard, but can be useful for *data* maps
+   (eg. normals) to allow more variations in color (and hence a more accurate
+   representation of the data). For plain color maps it generally doesn't provide
+   any advantages. You must also use an image format and bit depth with higher than
+   8bpp or the extra data will be lost and colors may appear different than expected
+   as they are remapped to a lower bit depth.
+   |br|
+   
+6. **Format:** Drop down list of supported image formats. This will default
    to the output format selected for your current scene when placing the node.
    The options in section *[7]* will change depending on the format chosen.
    |br|
    
-6. **X and Y Resolution:** Set the width and height in pixels of the final output
+7. **X and Y Resolution:** Set the width and height in pixels of the final output
    image. Using a lower value than the bake pass allows for down sampling. Note
    that for performance reasons most real time rendering engines will expect your
    texture maps to be a power of two (*eg. 512, 1024, 2048, 4096, etc*). Also
@@ -51,7 +64,7 @@ for linking to one or more :doc:`batchbake` nodes if desired.
    but it's not really possible to increse the detail in a lower resolution map.
    |br|
    
-7. **Format Options:** This group of options are specific to the chosen image format
+8. **Format Options:** This group of options are specific to the chosen image format
    and will change accordingly. Almost all formats support '*Color Space*', if you
    are unsure what to pick use '*sRGB*' for color information and '*Non-Color*' for
    data maps like normals. For any other settings either use the defaults or check

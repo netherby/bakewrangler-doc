@@ -60,22 +60,13 @@ Outputs can be connected in any combination to any number of
    at the :doc:`egmasking` for an example.
    |br|
    
-7. **Use 32bit Float:** Normally blender renders images using 8bits per channel
-   per pixel (24bpp or 32bpp with Alpha). If you want to save your output in a
-   format with more data per pixel than that you need to enable this option. Your
-   *pass* with then use 92bpp (128bpp with Alpha). This uses up 4x more memory
-   than standard, but can be useful for *data* maps (eg. normals) to allow more
-   variations in color (and hence a more accurate representation of the data).
-   For plain color maps it generally doesn't provide any advantages.
-   |br|
-   
-8. **Use My World:** If you want to use lighting information from your scenes world
+7. **Use My World:** If you want to use lighting information from your scenes world
    in the *pass*, you need to enable this option and select the '*World*' you want
    to use (if left blank, but enabled the currently active scenes world is used).
    By default Bake Wrangler uses a plain 100% white world background.
    |br|
   
-9. **Use My Settings:** Enabling this causes Bake Wranglers default rendering settings
+8. **Use My Settings:** Enabling this causes Bake Wranglers default rendering settings
    to be replaced with the settings from the '*Scene*' you select (if left blank, but
    enabled the currently active scenes settings are used). The default render settings
    used by Bake Wrangler are optimized to quickly render maps without lighting information

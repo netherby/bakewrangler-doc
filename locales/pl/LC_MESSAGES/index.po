@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bake-wrangler-docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-13 17:32+1000\n"
+"POT-Creation-Date: 2020-06-16 04:35+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,8 +147,9 @@ msgstr ""
 
 #: ../../index.rst:63
 msgid ""
-"Come visit `blenderartists.org/bake-wrangler "
-"<http://www.blenderartists.org>`_ to get involved and make suggestions :)"
+"Come visit `blenderartists.org/t/bake-wrangler-node-based-baking-tool-"
+"set/ <https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-"
+"set/>`_ to get involved and make suggestions :)"
 msgstr ""
 
 #: ../../index.rst:56
@@ -178,4 +179,10 @@ msgid ""
 "You can also **donate** and **vote** on features using `ko-"
 "fi.com/bakewrangler <https://ko-fi.com/bakewrangler>`_"
 msgstr ""
+
+#~ msgid ""
+#~ "Come visit `blenderartists.org/bake-wrangler "
+#~ "<http://www.blenderartists.org>`_ to get involved"
+#~ " and make suggestions :)"
+#~ msgstr ""
 
