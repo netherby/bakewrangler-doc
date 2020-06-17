@@ -14,8 +14,9 @@ Once installed you need to check the box on the add-on to enable it.
 
 When updating follow the same procedure (making sure the '*Overwrite*'
 box is checked in the '*File Viewer*' when selecting the new version).
-Sometimes changes are made the require blender to be restarted, so
-it is a good idea to do so after updating.
+Sometimes changes are made the require blender to be restarted, though
+I try to avoid this, it is a good idea to do so after updating if things
+don't seem to be working right.
 
 If an update changes the node tree in some way, out of date trees will
 be updated when they are loaded. If a tree is already open when you update
