@@ -60,7 +60,9 @@ Come visit `blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/ <http
     **Blender Market:** `blendermarket.com/bake-wrangler <https://www.blendermarket.com/bake-wrangler>`_
     =================== ================================================================================
     
-    You can also **donate** and **vote** on features using `ko-fi.com/bakewrangler <https://ko-fi.com/bakewrangler>`_
+    [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G6162P8)
+    To throw some coins into the *tip jar* and help fund more improvements. You can leave a
+    comment with each donation telling me what **new feature** you would most like added.
     
 .. toctree::
     :hidden:
