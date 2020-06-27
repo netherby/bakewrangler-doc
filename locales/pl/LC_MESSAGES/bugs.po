@@ -28,7 +28,7 @@ msgid ""
 "/bake-wrangler-node-based-baking-tool-set/) <https://blenderartists.org/t"
 "/bake-wrangler-node-based-baking-tool-set/>`_ following these guidelines:"
 msgstr ""
-" Znalazłeś błąd? *Proszę* zgłoś to używając jednego z linków `(blenderartists.org/t"
+" Znalazłeś błąd? *Proszę* zgłoś to tutaj `(blenderartists.org/t"
 "/bake-wrangler-node-based-baking-tool-set/) <https://blenderartists.org/t"
 "/bake-wrangler-node-based-baking-tool-set/>`_ stosując się do opisanych wytycznych:"
 
