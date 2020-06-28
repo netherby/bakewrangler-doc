@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../bugs.rst:2
 msgid "Bug Reports"
-msgstr ""
+msgstr "Zgłoś błędy"
 
 #: ../../bugs.rst:4
 msgid ""
@@ -28,24 +28,29 @@ msgid ""
 "/bake-wrangler-node-based-baking-tool-set/) <https://blenderartists.org/t"
 "/bake-wrangler-node-based-baking-tool-set/>`_ following these guidelines:"
 msgstr ""
+" Znalazłeś błąd? *Proszę* zgłoś to tutaj `(blenderartists.org/t"
+"/bake-wrangler-node-based-baking-tool-set/) <https://blenderartists.org/t"
+"/bake-wrangler-node-based-baking-tool-set/>`_ stosując się do opisanych wytycznych:"
 
 #: ../../bugs.rst:7
 msgid "**Always post the steps to reproduce the bug.**"
-msgstr ""
+msgstr "**Zawsze opisz sposób w jaki można odtworzyć błąd.**"
 
 #: ../../bugs.rst:11
 msgid "User interface bug:"
-msgstr ""
+msgstr "Błąd interfejsu"
 
 #: ../../bugs.rst:10
 msgid ""
 "Along with describing what you did, post a screen shot if "
 "possible/relevent and any error messages produced in the console."
 msgstr ""
+"Wraz z opisem, jeśli to zasadne, załącz proszę zrzut ekranu oraz"
+"każdą informację o błędzie wyświetloną przez konsolę"
 
 #: ../../bugs.rst:17
 msgid "Bake process bug:"
-msgstr ""
+msgstr "Błąd procesu wypalania tekstur:"
 
 #: ../../bugs.rst:14
 msgid ""
@@ -54,10 +59,14 @@ msgid ""
 "fails. Please post this text with your report. If a log doesn't open you "
 "may need to post your .blend file."
 msgstr ""
+" Upewnij się aby włączyć tryb '*Debug*' w :doc:`prefs`\\. W efekcie, jeśli wystąpi błąd,"
+"w nowym okie powinien zostać wyświetlony pełny zapis podjętych czynności."
+"Proszę załącz ten tekst wraz z Twoim zgłoszeniem. Jeśli nie udało Ci się uzyskać"
+"pełnego zapisu, proszę dołącz do zgłoszenia plik .blend"
 
 #: ../../bugs.rst:24
 msgid "Bake output bug:"
-msgstr ""
+msgstr "Błąd eksportu"
 
 #: ../../bugs.rst:20
 msgid ""
@@ -67,10 +76,15 @@ msgid ""
 "incorrect post your node tree along with the expected and actual outputs."
 " I will likely need your .blend file also."
 msgstr ""
+"Jeśli efekt wypalania nie jest zgodny z oczekiwanym, upewnij się, że"
+"Twoje drzewo węzłów zostało stworzone poprawnie. Sprawedź tool-tip (what is that?!)"
+"w ceu sprawdzenia czy dany proces nie ma szczególnych wymagań"
+"Jeśli pomimo tego, wciąż nie jesteś w stanie uzyskać odpowiedniego rezultatu,"
+"wyślij swoje drzewo węzłów lub plik .blend wraz z uzyskanimi oraz oczekiwanymi efektami"
 
 #: ../../bugs.rst:26
 msgid "Thanks for helping to improve Bake Wrangler!"
-msgstr ""
+msgstr "Dziękuję Ci za pomoc w ulepszaniu Bake Wrangler!"
 
 #~ msgid ""
 #~ "Have you found a bug? *Please* "
@@ -78,4 +92,7 @@ msgstr ""
 #~ " <http://www.blenderartists.org>`_ following these "
 #~ "guidelines:"
 #~ msgstr ""
-
+#~ "Znalazłeś błąd? *Proszę* "
+#~ "zgłoś to tutaj (blenderartists.org/bakewrangler)"
+#~ " <http://www.blenderartists.org>`_ stosując się do opisanych "
+#~ "wytycznych:"
