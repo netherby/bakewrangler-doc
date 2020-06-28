@@ -21,25 +21,42 @@ for linking to one or more :doc:`batchbake` nodes if desired.
    non-batch bake. For the differences with the similar *Bake Pass* button
    take a look at the :doc:`egpassvimg` example.
    |br|
+
+2. **Format:** Drop down list of supported image formats. This will default
+   to the output format selected for your current scene when placing the node.
+   The options in section *[7]* will change depending on the format chosen.
+   |br|
    
-2. **Image Path:** Simply used to select the path where the image will be
+3. **Image Path:** Simply used to select the path where the image will be
    saved. Relative paths may be used (*eg. // to refer to the path the .blend
    file is in*).
    |br|
    
-3. **Image Name:** The name of the image with or without the extension. The
+4. **Image Name:** The name of the image with or without the extension. The
    extension will be added for the currently selected file format unless you
    have given the file an extension that isn't recognized (*eg. if format was
    set to 'JPEG' both 'img' and 'img.png' would be saved as 'img.jpg' but
    'img.myext' would not be changed*).
    |br|
    
-4. **Clear Image:** When enabled and if the target image already exists, it
+5. **X and Y Resolution:** Set the width and height in pixels of the final output
+   image. Using a lower value than the bake pass allows for down sampling. Note
+   that for performance reasons most real time rendering engines will expect your
+   texture maps to be a power of two (*eg. 512, 1024, 2048, 4096, etc*). Also
+   consider that you can always reduce the detail/size of a higher resolution map,
+   but it's not really possible to increse the detail in a lower resolution map.
+   |br|
+   
+6. **Advanced Settings:** Collapses or expands the more advanced or less
+   used settings to reduce clutter and node footprint.
+   |br|
+   
+7. **Clear Image:** When enabled and if the target image already exists, it
    will clear the image to black (and transparent if supported by image settings)
    before writing bake data.
    |br|
    
-5. **Use 32 Bit Float:** Normally blender renders images using 8bits per channel
+8. **Use 32 Bit Float:** Normally blender renders images using 8bits per channel
    per pixel (24bpp or 32bpp with Alpha). If you want to save your output in a
    format with more data per pixel than that you need to enable this option. All
    contributing :doc:`passes </pass>` will then use 92bpp (128bpp with Alpha).
@@ -51,25 +68,11 @@ for linking to one or more :doc:`batchbake` nodes if desired.
    as they are remapped to a lower bit depth.
    |br|
    
-6. **Format:** Drop down list of supported image formats. This will default
-   to the output format selected for your current scene when placing the node.
-   The options in section *[7]* will change depending on the format chosen.
-   |br|
-   
-7. **X and Y Resolution:** Set the width and height in pixels of the final output
-   image. Using a lower value than the bake pass allows for down sampling. Note
-   that for performance reasons most real time rendering engines will expect your
-   texture maps to be a power of two (*eg. 512, 1024, 2048, 4096, etc*). Also
-   consider that you can always reduce the detail/size of a higher resolution map,
-   but it's not really possible to increse the detail in a lower resolution map.
-   |br|
-   
-8. **Format Options:** This group of options are specific to the chosen image format
+9. **Format Options:** This group of options are specific to the chosen image format
    and will change accordingly. Almost all formats support '*Color Space*', if you
    are unsure what to pick use '*sRGB*' for color information and '*Non-Color*' for
    data maps like normals. For any other settings either use the defaults or check
    the tool-tip for more information if you are unsure.
-   |br|
    
 .. |br| raw:: html
 
