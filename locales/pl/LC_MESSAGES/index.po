@@ -148,7 +148,7 @@ msgid ""
 "driven by user feedback and demand. |br|"
 msgstr ""
 "**Bake Passes** - Większość z kanałów wypiekania jest łatwych do dodania do systemu,"
-jednakże niektóre z nich są w ciąż dużym wyzwaniem. Dodawanie nowych "
+"jednakże niektóre z nich są w ciąż dużym wyzwaniem. Dodawanie nowych "
 "kanałów wypiekania będzie wynikiem zgłaszanego przez użytkowników zapotrzebowania|br|"
 
 #: ../../index.rst:47
