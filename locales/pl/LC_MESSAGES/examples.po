@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../examples.rst:2
 msgid "Examples"
-msgstr ""
+msgstr "Przykłady"
 
 #: ../../examples.rst:4
 msgid ""
@@ -28,6 +28,9 @@ msgid ""
 "paths to generate output. The following examples better illustrate how "
 "some features work and give some ideas of what is possible:"
 msgstr ""
+"Jako, że Bake Wrangler jest zdolny do stworzenia wielu złożonych konfiguracji,"
+"istnieją dwa sposoby uzyskania efektów. Poniższe przykłady ilustrują działanie"
+"funkcji oraz podswuają pomysły jak można ich użyć"
 
 #: ../../examples.rst:9
 msgid ":doc:`/egpassvimg`"
@@ -35,7 +38,7 @@ msgstr ""
 
 #: ../../examples.rst:9
 msgid "Details '*Bake Pass*' vs '*Bake Image*' buttons"
-msgstr ""
+msgstr "Szczegóły '*Wypal pojedyńczy kanał*' vs '*Wypal cały obrazk*' przyciski"
 
 #: ../../examples.rst:10
 msgid ":doc:`/egmasking`"
@@ -43,5 +46,5 @@ msgstr ""
 
 #: ../../examples.rst:10
 msgid "Using the '*Masking*' feature"
-msgstr ""
+msgstr "Użycie opcji '*Maskowania*'"
 
