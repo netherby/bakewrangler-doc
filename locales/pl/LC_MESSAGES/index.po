@@ -20,55 +20,63 @@ msgstr ""
 
 #: ../../index.rst:2
 msgid "Bake Wrangler User Guide"
-msgstr ""
+msgstr "Przewodnik po Bake Wrangler"
 
 #: ../../index.rst:4
 msgid ""
 "Bake Wrangler is an add-on for `blender <http:\\\\www.blender.org>`_ that"
 " provides a *nodes based* interface for texture and material baking."
 msgstr ""
+"Bake Wrangler jest dodatkiem do `blender <http:\\\\www.blender.org>`_"
+"który pozwala na teksturowanie i wypiekanie materiałów za pomocą"
+"interfejsu używającego węzły (node)"
 
 #: ../../index.rst:25
 msgid "Current Features:"
-msgstr ""
+msgstr "Obecne funkcje"
 
 #: ../../index.rst:8
 msgid "Easy to use node system"
-msgstr ""
+msgstr "Łatwy do użycia system węzłów"
 
 #: ../../index.rst:9
 msgid "Background batch baking"
-msgstr ""
+msgstr "Wypiekanie wsadowe działające w tle"
 
 #: ../../index.rst:10
 msgid "Supports all the blender internal bake passes and multires"
-msgstr ""
+msgstr "Wsparcie dla wszystkich kanałów (pass) obsługiwanych przez Bendera"
+"oraz dla modyfikatora multires"
 
 #: ../../index.rst:11
 msgid "Exposes separate Color, R/G/B and Value channels of a pass"
-msgstr ""
+msgstr "Pozwala uzyskać wyseparowany kanał koloru ,R/G/B czy waloru"
+
 
 #: ../../index.rst:12
 msgid "Allows assigning pass output to individual output channels (R/G/B/A)"
-msgstr ""
+msgstr "Pozwala zapisać efekt wypiekania do jednego z kanałów obrazu końcowego (R/G/B/A)"
 
 #: ../../index.rst:13
 msgid ""
 "Masking feature allows layering of bakes and combining with external "
 "processes"
-msgstr ""
+msgstr "Funckja maskowania pozwala na układanie wypieków w warstwy oraz"
+"na łączenie ich z zewnętrzymi procesami"
 
 #: ../../index.rst:14
 msgid "Objects are isolated within a pass preventing unwanted interference"
-msgstr ""
+msgstr "Obiekty są izolowane w obrębie kanału co pozwala na wyeliminowanie"
+"niechcianego zachowania"
 
 #: ../../index.rst:15
 msgid "All standard image formats, color-spaces and bit depths are available"
-msgstr ""
+msgstr "Wszystkie standardowe formaty plików, przestrzenie kolorów oraz głębie bitów są dostępne"
+
 
 #: ../../index.rst:16
 msgid "Additional bake passes for better PBR and external engine support:"
-msgstr ""
+msgstr "Dodatkowe kanały wypiekania dla lepszego wsparcia PBR oraz zewnętrznych silników"
 
 #: ../../index.rst:18
 msgid "Albedo"
@@ -108,11 +116,11 @@ msgstr ""
 
 #: ../../index.rst:28
 msgid "There are three main areas of development planned for future releases:"
-msgstr ""
+msgstr "W przyszłych wydaniach rozwijane będą trzy główne obszary"
 
 #: ../../index.rst:30
 msgid "**User Interface**"
-msgstr ""
+msgstr "Interfejs użytkownika"
 
 #: ../../index.rst:32
 msgid ""
@@ -122,11 +130,16 @@ msgid ""
 " in other projects to quickly set the project specific values."
 msgstr ""
 
+
+
 #: ../../index.rst:38
 msgid ""
 "Nodes and systems to better support specific work-flows that may not fit "
 "optimally within the current systems. Requires more user feedback."
 msgstr ""
+"Węzły i systemy, które pozwolą na lepsze wsparcie poszczególnych metod pracy,"
+"których wymagania wychodzą poza możliwości obecnych rozwiązań."
+"Wymaga to informacji zwrotnych od użytkowników"
 
 #: ../../index.rst:42
 msgid ""
@@ -134,6 +147,9 @@ msgid ""
 "point, though some remain technically challenging. Adding passes will be "
 "driven by user feedback and demand. |br|"
 msgstr ""
+"**Bake Passes** - Większość z kanałów wypiekania jest łatwych do dodania do systemu,"
+"jednakże niektóre z nich są w ciąż dużym wyzwaniem. Dodawanie nowych "
+"kanałów wypiekania będzie wynikiem zgłaszanego przez użytkowników zapotrzebowania|br|"
 
 #: ../../index.rst:47
 msgid ""
@@ -144,6 +160,13 @@ msgid ""
 "would be. But it's certainly possible if users have a strong case for "
 "something. |br|"
 msgstr ""
+"**Image Manipulation** - Niedostępna na chwile obecną funkcja, pozwoli"
+"na łączenie kanałów wypiekania za pomocą funkcji matematycznych"
+"Podobnie do obróbki możliwej do przeprowadzania na obrazach"
+"Jest jednak kilka ograniczeń wydajności wynikających z Pythona, więc"
+"nie wiem jak użyteczne wprowadzenie tego rozwiązania będzie."
+"Jest to z pewnością możliwe jeśli tylko użytkownicy będą potrzebowali tej"
+"funkcjonalności.  |br|"
 
 #: ../../index.rst:63
 msgid ""
@@ -151,10 +174,14 @@ msgid ""
 "set/ <https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-"
 "set/>`_ to get involved and make suggestions :)"
 msgstr ""
+"Odwiedź `blenderartists.org/t/bake-wrangler-node-based-baking-tool-"
+"set/ <https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-"
+"set/>`_ i podziel się swoimi sugestiami :)"
+
 
 #: ../../index.rst:56
 msgid "Bake Wrangler is available from:"
-msgstr ""
+msgstr "Bake Wrangler jest dostępny od:"
 
 #: ../../index.rst:59
 msgid "**Gumroad:**"
@@ -179,6 +206,8 @@ msgid ""
 "You can also **donate** and **vote** on features using `ko-"
 "fi.com/bakewrangler <https://ko-fi.com/bakewrangler>`_"
 msgstr ""
+"Możesz również **wsprzeć** i **głosować* na nowe funkcjonalności używając"
+"`ko-fi.com/bakewrangler <https://ko-fi.com/bakewrangler>`_"
 
 #~ msgid ""
 #~ "Come visit `blenderartists.org/bake-wrangler "
