@@ -55,10 +55,10 @@ The Future:
 Come visit `blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/ <https://blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/>`_ to get involved and make suggestions :)
     Bake Wrangler is available from:
     
-    =================== ================================================================================
+    =================== ==============================================================================================
     **Gumroad:**        `gum.co/bake-wrangler <https://gum.co/bake-wrangler>`_
-    **Blender Market:** `blendermarket.com/bake-wrangler <https://www.blendermarket.com/bake-wrangler>`_
-    =================== ================================================================================
+    **Blender Market:** `blendermarket.com/products/bake-wrangler <https://blendermarket.com/products/bake-wrangler>`_
+    =================== ==============================================================================================
     
     |kofi| to throw some coins into the *tip jar* and help fund more improvements.
     You can leave a comment with each donation telling me what **new feature** you
