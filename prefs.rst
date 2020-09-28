@@ -19,10 +19,10 @@ Below are the current available preferences and their default settings:
       a bake process starts, displaying the text file (which is continually updated).
       The size and location of the window will match the Bake Node Editor from which the
       bake was started. The intention is to allow you to create your own work space with
-      the text file already open and so disable this popup.
+      the text file already open and so disable this pop-up.
       
-    * *Auto Close Text Window*: Will close the above popup automatically when a bake
-      completes sucessfully.
+    * *Auto Close Text Window*: Will close the above pop-up automatically when a bake
+      completes successfully.
 
 2. **Node Defaults:** Sets the default display state of some nodes. Here the initial
    filter settings of the :doc:`Objects </objects>` node can be set along with the default
