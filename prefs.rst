@@ -8,22 +8,22 @@ Below are the current available preferences and their default settings:
 1. **Message Settings:** Deal with where and how information is reported back to the
    user about progress and errors.
 
-    * *Messages to Text Editor*: Causes messages and errors
-      produced by Bake Wrangler to be written to a text file named '*BakeWrangler*'
-      in the current project. When disabled these messages would only be visible in
-      the console. This also enabled the three options below.
+   * *Messages to Text Editor*: Causes messages and errors
+     produced by Bake Wrangler to be written to a text file named '*BakeWrangler*'
+     in the current project. When disabled these messages would only be visible in
+     the console. This also enabled the three options below.
       
-    * *Clear Old Messages*: Clears the text file prior to
-      each bake, so that messages are only relevant to the current/last process.
+   * *Clear Old Messages*: Clears the text file prior to
+     each bake, so that messages are only relevant to the current/last process.
       
-    * *Open Text in new Window*: Will open a new window when
-      a bake process starts, displaying the text file (which is continually updated).
-      The size and location of the window will match the Bake Node Editor from which the
-      bake was started. The intention is to allow you to create your own work space with
-      the text file already open and so disable this pop-up.
+   * *Open Text in new Window*: Will open a new window when
+     a bake process starts, displaying the text file (which is continually updated).
+     The size and location of the window will match the Bake Node Editor from which the
+     bake was started. The intention is to allow you to create your own work space with
+     the text file already open and so disable this pop-up.
       
-    * *Auto Close Text Window*: Will close the above pop-up automatically when a bake
-      completes successfully.
+   * *Auto Close Text Window*: Will close the above pop-up automatically when a bake
+     completes successfully.
 
 2. **Node Defaults:** Sets the default display state of some nodes. Here the initial
    filter settings of the :doc:`Objects </objects>` node can be set along with the default
