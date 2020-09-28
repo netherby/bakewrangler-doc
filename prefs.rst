@@ -33,7 +33,6 @@ Below are the current available preferences and their default settings:
    * *Invert Selected in Bake Modifiers*: Causes the modifier selection method to be inverted
      when using this option in the :doc:`Mesh </mesh>` node. Viewport hidden modifiers will
      be baked down instead of shown modifiers.
-   |br|
    
 3. **Render Defaults:** Has settings related to the :doc:`Mesh </mesh>` and :doc:`Pass </pass>`
    nodes, allowing you to configure their defaults. The resolutions set here are used when
@@ -43,7 +42,6 @@ Below are the current available preferences and their default settings:
    * *Objects Always Visible*: Causes Bake Wrangler to ignore
      the visibility settings of an object in Blender. When enabled all objects selected
      as part of a bake will be made visible.
-   |br|
    
 4. **Output Defaults:** Has settings related to the :doc:`Output Image Path </outputimgpath>`
    node, allowing you to configure the defaults for newly created nodes. Again the resolutions
@@ -57,7 +55,6 @@ Below are the current available preferences and their default settings:
      data in the event of a later failure or memory shortage. Use it if some pass data
      seems to be getting lost or if you have very long pass bake times so as not to lose
      progress.
-   |br|
 
 5. **Debug:** Adds more detailed messages to each process and
    if a bake fails with an error condition a complete process log will be opened in a new
