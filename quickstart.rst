@@ -27,9 +27,9 @@ the :doc:`Examples </examples>`.
    targets).
    |br|
 
-3. **Pass:** selects the type of data you want to bake. Some passes will display additional
-   options below them when selected. In the example picture the '*Normal*' pass has the extra
-   choices of normal space and which direction is mapped to the three color channels.
+3. **Group & Pass:** selects the type of data you want to bake. Some passes will display additional
+   options below them when selected. In the example picture the '*Albedo*' pass in the '*PBR*' group
+   has no additional options.
    |br|
 
 4. **Image Path:** selects where the baked image will be saved. Relative locations are

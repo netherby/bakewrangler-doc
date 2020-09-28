@@ -17,7 +17,7 @@ Outputs can be connected in any combination to any number of
    how this works.
    |br|
    
-2. **Pass:** Drop down list to select bake *pass*. Some passes may
+2. **Group & Pass:** Drop down list to select bake *pass*. Some passes may
    have additional options which will appear below when selected.
    Tool-tips are used to explain their functions. Additionally some
    passes require a *Principled BDSF* based material on the objects,
@@ -31,20 +31,13 @@ Outputs can be connected in any combination to any number of
    one sample and increase if the result isn't good enough.
    |br|
    
-4. **X and Y Resolution:** Sets the width and height of the bake in pixels.
-   This is **not** the final size of the output, just the size of this bake
-   *pass*. This is intended to facilitate a couple of scenarios, the most
-   common being *down sampling* into the final image. This is a useful
-   technique, especially with normal maps where you bake at a higher resolution
-   to the final image. The resultant *down sampling* creates much smoother
-   transitions between areas than in the original map. Another use is when
-   multiple objects share a UV Map, but have different levels of detail,
-   render time can be saved by baking the lower detail objects at a lower
-   resolution.
+
+4. **Advanced Settings:** Collapses or expands the more advanced or less
+   used settings to reduce clutter and node footprint.
    |br|
 
-5. **Advanced Settings:** Collapses or expands the more advanced or less
-   used settings to reduce clutter and node footprint.
+5. **Local X and Y Resolution:** These are used only to override any :doc:`globalres`
+   nodes or when no global values are set or active.
    |br|
    
 6. **Device:** Simple choice between *CPU* or *GPU* as rendering device.

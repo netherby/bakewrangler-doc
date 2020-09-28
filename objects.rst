@@ -42,6 +42,11 @@ which case it will be evaluated multiple times.*
 5. **Recursive Selection:** When the selected item is a collection this option will
    appear. Enabling it will cause any and all sub collections of the primary selection
    to also be included.
+   |br|
+   
+6. **Add Selected:** Clicking this button will add all currently selected objects to the
+   node, respecting the current filter. Duplicate items will not be added unless
+   SHIFT is held while clicking. It is not possible to add collections in this way.
 
 .. |br| raw:: html
 

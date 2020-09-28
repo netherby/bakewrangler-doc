@@ -39,16 +39,12 @@ for linking to one or more :doc:`batchbake` nodes if desired.
    'img.myext' would not be changed*).
    |br|
    
-5. **X and Y Resolution:** Set the width and height in pixels of the final output
-   image. Using a lower value than the bake pass allows for down sampling. Note
-   that for performance reasons most real time rendering engines will expect your
-   texture maps to be a power of two (*eg. 512, 1024, 2048, 4096, etc*). Also
-   consider that you can always reduce the detail/size of a higher resolution map,
-   but it's not really possible to increse the detail in a lower resolution map.
-   |br|
-   
-6. **Advanced Settings:** Collapses or expands the more advanced or less
+5. **Advanced Settings:** Collapses or expands the more advanced or less
    used settings to reduce clutter and node footprint.
+   |br|
+
+6. **Local X and Y Resolution:** These are used only to override any :doc:`globalres`
+   nodes or when no global values are set or active.
    |br|
    
 7. **Clear Image:** When enabled and if the target image already exists, it

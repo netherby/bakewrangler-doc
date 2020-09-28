@@ -13,21 +13,17 @@ Current Features:
     * Masking feature allows layering of bakes and combining with external processes
     * Objects are isolated within a pass preventing unwanted interference
     * All standard image formats, color-spaces and bit depths are available
-    * Additional bake passes for better PBR and external engine support:
-    
-      * Albedo
-      * Smoothness
-      * Metallic
-      * Specular
-      * Alpha
-      * Curvature
-      * Cavity
-      * More planned plus user feedback
+    * Full set of 23 PBR passes (Albedo, Metallic, Smoothness, etc)
+    * Additional 11 passes not found in blender (Bevels, Cavity, Curves, Height, etc)
+    * Automatic cage generation options when baking down from other objects
+    * Material override system to bake different materials without changing your objects
+    * Modifier baking to unmodified base objects
+    * Still more planned...
 
 The Future:
     There are three main areas of development planned for future releases:
     
-    * **User Interface**
+    * **User Interface (Current Focus)**
     
       * Productivity features for large/complex bakes to allow
         grouping of values so they can be modified from one location and
@@ -39,11 +35,6 @@ The Future:
         not fit optimally within the current systems. Requires more user
         feedback.
           
-    * **Bake Passes** - Many additional passes are very simple to add at this
-      point, though some remain technically challenging. Adding passes will
-      be driven by user feedback and demand.
-      |br|
-    
     * **Image Manipulation** - While not currently implemented, it would be
       possible to combine passes using a maths function. Similarly some post
       processing could be done on the images. There are some performance
