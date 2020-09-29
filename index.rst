@@ -61,6 +61,7 @@ Come visit `blenderartists.org/t/bake-wrangler-node-based-baking-tool-set/ <http
     
     /install
     /quickstart
+    /bakepasses
     /prefs
     /nodes
     /examples

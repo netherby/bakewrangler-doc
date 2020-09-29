@@ -23,4 +23,4 @@ the side bar explained below.
    
 .. |br| raw:: html
 
-<br /><br />
+   <br /><br />
