@@ -6,7 +6,6 @@ paths to generate output. The following examples better illustrate how
 some features work and give some ideas of what is possible:
 
 ================== ===============================================
-:doc:`/egpassvimg` Details '*Bake Pass*' vs '*Bake Image*' buttons
 :doc:`/egmasking`  Using the '*Masking*' feature
 ================== ===============================================
 
@@ -14,6 +13,5 @@ some features work and give some ideas of what is possible:
     :hidden:
     :maxdepth: 1
     
-    /egpassvimg
     /egmasking
     

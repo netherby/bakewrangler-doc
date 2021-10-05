@@ -11,7 +11,8 @@ Below are the current available preferences and their default settings:
    * *Messages to Text Editor*: Causes messages and errors
      produced by Bake Wrangler to be written to a text file named '*BakeWrangler*'
      in the current project. When disabled these messages would only be visible in
-     the console. This also enabled the three options below.
+     the console. This also enabled the three options below and causes the BW icon
+     to display in the bottom right of the status bar.
       
    * *Clear Old Messages*: Clears the text file prior to
      each bake, so that messages are only relevant to the current/last process.
@@ -26,8 +27,7 @@ Below are the current available preferences and their default settings:
      completes successfully.
 
 2. **Node Defaults:** Sets the default display state of some nodes. Here the initial
-   filter settings of the :doc:`Objects </objects>` node can be set along with the default
-   bake and output resolutions. You can also have
+   filter settings of the :doc:`Objects </objects>` node can be set. You can also have
    nodes with collapsed advanced options start with them expanded instead. (Applies only
    to new nodes)
    
@@ -36,26 +36,19 @@ Below are the current available preferences and their default settings:
      be baked down instead of shown modifiers.
      |br|
 3. **Render Defaults:** Has settings related to the :doc:`Mesh </mesh>` and :doc:`Pass </pass>`
-   nodes, allowing you to configure their defaults. The resolutions set here are used when
-   the global setting is overridden or if no global node is enabled in the scene.
-   (Applies only to new nodes)
+   nodes, allowing you to configure their defaults.
    
    * *Objects Always Visible*: Causes Bake Wrangler to ignore
      the visibility settings of an object in Blender. When enabled all objects selected
      as part of a bake will be made visible.
      |br|
 4. **Output Defaults:** Has settings related to the :doc:`Output Image Path </outputimgpath>`
-   node, allowing you to configure the defaults for newly created nodes. Again the resolutions
-   set here only apply when the global setting is overridden or no active global node is found.
+   node, allowing you to configure the defaults for newly created nodes.
    
    * *Create Paths*: Causes Bake Wrangler to attempt to create the output path if it doesn't exist.
    
-   * *Save each Pass*: Causes the output to be saved after each
-     bake pass instead of after all contributing passes. This will reduce performance in
-     some cases (especially with Alpha being written every time), but will preserve pass
-     data in the event of a later failure or memory shortage. Use it if some pass data
-     seems to be getting lost or if you have very long pass bake times so as not to lose
-     progress.
+   * *Auto open bakes*: Will open created images in Blender after a successful bake, if those images
+     aren't already open.
      |br|
 5. **Debug:** Adds more detailed messages to each process and
    if a bake fails with an error condition a complete process log will be opened in a new

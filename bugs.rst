@@ -7,7 +7,7 @@ following these guidelines:
 **Always post the steps to reproduce the bug.**
 
 User interface bug:
-    Along with describing what you did, post a screen shot if possible/relevent
+    Along with describing what you did, post a screen shot if possible/relevant
     and any error messages produced in the console.
     
 Bake process bug:

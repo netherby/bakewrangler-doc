@@ -18,7 +18,6 @@ Sometimes changes are made the require blender to be restarted, though
 I try to avoid this, it is a good idea to do so after updating if things
 don't seem to be working right.
 
-If an update changes the node tree in some way, out of date trees will
-be updated when they are loaded. If a tree is already open when you update
-or load a .blend it won't be updated until something causes it to be re-read.
-Selecting it from the tree list or changing the tree both cause an update.
+Recipes from older versions of the add-on can be updated to the latest
+version by using the '*Update*' button in the right side ('N') panel found
+in the '*Bake Wrangler*' tab.
